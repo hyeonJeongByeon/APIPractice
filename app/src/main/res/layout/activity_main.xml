@@ -46,6 +46,7 @@
             android:background="@drawable/login_edt_background"/>
 
         <Button
+            android:id="@+id/loginBtnEdt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="로그인"/>
@@ -57,11 +58,17 @@
             android:layout_height="wrap_content">
 
             <TextView
+
                 android:id="@+id/findPwTxt"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="10dp"
                 android:text="비밀번호 찾기"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
 
             <TextView
                 android:layout_width="0dp"
